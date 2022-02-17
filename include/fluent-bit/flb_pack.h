@@ -51,7 +51,7 @@
     "supported formats: double, " \
      "iso8601 (e.g: 2018-05-30T09:39:52.000681Z), " \
      "java_sql_timestamp (e.g: 2018-05-30 09:39:52.000681, useful for AWS Athena), "\
-     "and epoch."
+     "epoch and epoch_ms (or epoch_millis or epoch_milliseconds)."
 
 /* JSON formats (modes) */
 #define FLB_PACK_JSON_FORMAT_NONE        0
